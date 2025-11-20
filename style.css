@@ -1,5 +1,39 @@
+/* Soft background instead of neon */
 body {
-    background-color: aqua;
+    background: #eafaff;
     font-family: Arial, sans-serif;
-    text-align: center;
+    line-height: 1.6;
+    padding: 40px;
+}
+
+/* Limit width and centre the content */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Add spacing between sections */
+section {
+    margin-bottom: 40px;
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 150px;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Make the table look normal */
+table {
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+td, th {
+    border: 1px solid #333;
+    padding: 8px 12px;
 }
